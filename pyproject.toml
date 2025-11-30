@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "network-anomaly-detection"
+version = "0.1.0"
+description = "Network Anomaly Detection using CTU-13 Scenario 9"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>=1.5.0",
+    "numpy>=1.23.0",
+    "pyarrow>=10.0.0",  # 用於 Parquet 檔案格式
+    "scikit-learn>=1.0.0",  # 用於 Isolation Forest 和資料預處理
+    "xgboost>=1.6.0",  # 用於 XGBoost 模型
+    "matplotlib>=3.5.0",  # 用於視覺化
+    "seaborn>=0.12.0",  # 用於進階視覺化
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=22.0.0",
+    "flake8>=5.0.0",
+]
+
+[tool.setuptools]
+packages = { find = { where = ["src"] } }
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-v",
+    "--strict-markers",
+    "--tb=short",
+]
+

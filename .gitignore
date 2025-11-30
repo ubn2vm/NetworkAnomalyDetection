@@ -1,0 +1,31 @@
+# Python 虛擬環境
+.venv/
+venv/
+ENV/
+
+# Python 快取與編譯檔
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Spark 暫存檔 (非常重要！)
+spark_temp/
+metastore_db/
+derby.log
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# 專案資料 (不要上傳大檔案)
+data/processed/
+data/raw/
+*.parquet
+*.pcap
+*.labeled
+
+# 但保留 data 資料夾結構 (可選)
+!data/.gitkeep
+
+# IDE 設定檔 (可選，避免上傳個人設定)
+.vscode/
+.idea/
