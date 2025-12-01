@@ -134,13 +134,13 @@ flowchart LR
 
 ![XGBoost ROC/PR Curves](doc/xgboost_roc_pr_curves.png)
 
-### 預測概率分佈分析
-
-![XGBoost Prediction Probability Distribution](doc/xgboost_prediction_probability_distribution.png)
-
 ### 混淆矩陣
 
 ![XGBoost Confusion Matrix](doc/xgboost_confusion_matrix.png)
+
+### 預測概率分佈分析
+
+![XGBoost Prediction Probability Distribution](doc/xgboost_prediction_probability_distribution.png)
 
 # 🚀 Future Work
 下一步規劃如下：
