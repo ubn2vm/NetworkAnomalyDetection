@@ -1,0 +1,31 @@
+{
+  "original_anomalies": 180829,
+  "final_anomalies": 121422,
+  "filtered_count": 59407,
+  "total_samples": 417502,
+  "rule_count": 3,
+  "whitelist_method": "scoring_threshold",
+  "timestamp": "2025-12-07 21:22:23",
+  "test_metrics": {
+    "original": {
+      "tn": 231736,
+      "fp": 148769,
+      "fn": 4937,
+      "tp": 32060,
+      "accuracy": 0.6318436797907555,
+      "precision": 0.1772945711141465,
+      "recall": 0.8665567478444198,
+      "f1": 0.2943633909634295
+    },
+    "filtered": {
+      "tn": 289044,
+      "fp": 91461,
+      "fn": 7036,
+      "tp": 29961,
+      "accuracy": 0.764080172071032,
+      "precision": 0.2467510006423877,
+      "recall": 0.8098224180338947,
+      "f1": 0.37825008363895746
+    }
+  }
+}

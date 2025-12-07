@@ -1,0 +1,13 @@
+[
+  {
+    "name": "TCP/80",
+    "params": {
+      "type": "proto_port",
+      "proto": "tcp",
+      "port": 80.0
+    },
+    "fp_ratio": 0.1,
+    "normal_ratio": 0.05,
+    "attack_ratio": 0.01
+  }
+]

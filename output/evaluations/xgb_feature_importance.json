@@ -1,0 +1,16 @@
+{
+  "SrcBytes": 0.005105985794216394,
+  "DstBytes": 0.0028015298303216696,
+  "packet_size": 0.009460443630814552,
+  "bytes_per_second": 0.0022958822082728148,
+  "time_since_last_flow": 0.0034519361797720194,
+  "flows_per_minute_by_src": 0.03383474424481392,
+  "unique_dst_per_minute_by_src": 0.49364814162254333,
+  "unique_dport_per_minute_by_src": 0.4111722707748413,
+  "total_bytes_per_minute_by_src": 0.012479272671043873,
+  "bidirectional_flow_count": 0.007103146053850651,
+  "bidirectional_total_src_bytes": 0.004734270740300417,
+  "bidirectional_symmetry": 0.005244704894721508,
+  "bidirectional_avg_bytes_per_flow": 0.005745389498770237,
+  "bidirectional_avg_packets_per_flow": 0.0029222285374999046
+}
