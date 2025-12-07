@@ -49,7 +49,7 @@ flowchart LR
 ### Pipeline 說明
 
 | 階段 | 技術棧 |  說明 |
-|------|--------|------|------|
+|------|--------|------|
 | **Data Ingestion** | PySpark |  模擬 Data Lake 架構，處理大規模 Binetflow 數據。 |
 | **Feature Engineering** | Pandas/Spark Window Functions | **Time-Window Aggregation**：計算 1 分鐘內的行為特徵（如 IP 多樣性、Port 熵值）。 |
 | **Feature Transformation** | Log1p + RobustScaler |  **Log1p + RobustScaler**：解決 NetFlow 數據嚴重的長尾分佈 (Power-law) 問題。 |
